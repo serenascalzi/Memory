@@ -1,0 +1,85 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+body {
+	width:740px;
+	margin:20px auto;
+	background-color:rgb(102,102,153);
+}
+
+header {
+	margin:10px;
+	font-family:'Luckiest Guy', cursive;
+	font-size:20px;
+	letter-spacing:3px;
+	text-align:center;
+	text-transform:uppercase;
+	color:white;
+}
+
+.title {
+	text-decoration:none;
+	color:rgb(51,204,153);
+}
+
+main {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+main > div {
+	margin:10px;
+	border:1px solid white;
+	border-radius:5px;
+}
+
+button {
+	width:100px;
+	height:100px;
+	padding:10px;
+	font-size:60px;
+	text-align:center;
+	background-color:rgb(102,102,153);
+	outline:0;
+}
+
+.start {
+	opacity:0;
+	transition:opacity 0.25s;
+	color:white;
+	cursor:pointer;
+}
+
+.active {
+	opacity:1;
+}
+
+.match {
+	color:rgb(51,153,153);
+	cursor:none;
+}
+
+footer {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	font-family:'Lato', sans-serif;
+	font-size:18px;
+	text-transform:uppercase;
+	color:white;
+}
+
+footer > div {
+	margin:10px;
+}

@@ -1,0 +1,49 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+body {
+	width:370px;
+	margin:20px auto;
+	background-color:rgb(102,102,153);
+}
+
+header {
+	margin:10px;
+	font-family:'Luckiest Guy', cursive;
+	font-size:20px;
+	letter-spacing:3px;
+	text-align:center;
+	text-transform:uppercase;
+	color:white;
+}
+
+main {
+	display:block;
+}
+
+main > div {
+	margin:20px;
+	padding:10px;
+	text-align:center;
+	border:1px solid white;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+main > div > a {
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:rgb(51,204,153);
+}
