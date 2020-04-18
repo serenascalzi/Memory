@@ -1,3 +1,8 @@
+/*
+Colors	Paper Source Colorscope: Aubergine, Plum
+Fonts	Google Fonts: Lato, Luckiest Guy
+*/
+
 * {
 	margin:0;
 	padding:0;
@@ -14,7 +19,7 @@ html {
 body {
 	width:370px;
 	margin:20px auto;
-	background-color:rgb(102,102,153);
+	background-color:rgb(53,21,65);
 }
 
 header {
@@ -24,7 +29,7 @@ header {
 	letter-spacing:3px;
 	text-align:center;
 	text-transform:uppercase;
-	color:white;
+	color:rgb(255,255,255);
 }
 
 main {
@@ -46,5 +51,5 @@ main > div > a {
 	font-weight:bold;
 	text-transform:uppercase;
 	text-decoration:none;
-	color:rgb(51,204,153);
+	color:rgb(202,194,219);
 }
